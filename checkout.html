@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — CollegeMerch</title>
+  <meta name="description" content="Complete your demo checkout.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header id="siteHeader"></header>
+  <main>
+    <div class="page-header"><div class="container"><h1>Checkout</h1><p>Demo checkout — no real payment is processed</p></div></div>
+    <div class="container" style="padding-bottom:50px;" id="checkoutMain">
+      <form class="checkout-layout" id="checkoutForm" novalidate>
+        <div>
+          <section class="checkout-section">
+            <h3>Customer Details</h3>
+            <div class="form-group">
+              <label for="coName">Full Name</label>
+              <input type="text" id="coName"><span class="error-msg" id="coNameErr"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="coEmail">Email</label>
+                <input type="email" id="coEmail"><span class="error-msg" id="coEmailErr"></span>
+              </div>
+              <div class="form-group">
+                <label for="coPhone">Phone</label>
+                <input type="tel" id="coPhone"><span class="error-msg" id="coPhoneErr"></span>
+              </div>
+            </div>
+          </section>
+
+          <section class="checkout-section">
+            <h3>Delivery Address</h3>
+            <div class="form-group">
+              <label for="coAddress">Address</label>
+              <input type="text" id="coAddress"><span class="error-msg" id="coAddressErr"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="coCity">City</label>
+                <input type="text" id="coCity"><span class="error-msg" id="coCityErr"></span>
+              </div>
+              <div class="form-group">
+                <label for="coState">State</label>
+                <input type="text" id="coState"><span class="error-msg" id="coStateErr"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="coPin">PIN Code</label>
+              <input type="text" id="coPin"><span class="error-msg" id="coPinErr"></span>
+            </div>
+          </section>
+
+          <section class="checkout-section">
+            <h3>Payment Method</h3>
+            <label class="pay-option selected" onclick="selectPayment(this)">
+              <input type="radio" name="payment" value="UPI" checked> UPI
+            </label>
+            <label class="pay-option" onclick="selectPayment(this)">
+              <input type="radio" name="payment" value="Card"> Card
+            </label>
+            <label class="pay-option" onclick="selectPayment(this)">
+              <input type="radio" name="payment" value="Cash on Collection"> Cash on Collection
+            </label>
+          </section>
+        </div>
+
+        <aside class="summary-card">
+          <h3 style="margin-bottom:18px;">Order Summary</h3>
+          <div id="coSummary"></div>
+          <button type="submit" class="btn btn-primary btn-block" id="placeOrderBtn" style="margin-top:16px;">Place Order</button>
+        </aside>
+      </form>
+    </div>
+  </main>
+  <footer id="siteFooter"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

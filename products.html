@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products — CollegeMerch</title>
+  <meta name="description" content="Browse all college merchandise. Filter by category, price and availability.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1>All Products</h1>
+        <p>Browse the full college merchandise collection</p>
+      </div>
+    </div>
+
+    <div class="container" style="padding-bottom:50px;" id="categories">
+      <!-- FILTER BAR -->
+      <div class="filter-bar">
+        <input type="search" id="filterSearch" class="search-input" placeholder="Search products..." aria-label="Search">
+        <select id="filterCategory" aria-label="Category filter">
+          <option value="All">All Categories</option>
+          <option>T-Shirts</option><option>Hoodies</option><option>Jackets</option>
+          <option>Caps</option><option>Bags</option><option>Accessories</option>
+          <option>Stationery</option><option>Lifestyle</option>
+        </select>
+        <select id="filterPrice" aria-label="Price filter">
+          <option value="All">Any Price</option>
+          <option value="0-299">Under ₹300</option>
+          <option value="300-699">₹300 – ₹699</option>
+          <option value="700+">₹700 &amp; above</option>
+        </select>
+        <select id="filterAvail" aria-label="Availability filter">
+          <option value="All">All Stock</option>
+          <option value="instock">In Stock</option>
+          <option value="out">Out of Stock</option>
+        </select>
+        <select id="filterSort" aria-label="Sort products">
+          <option value="featured">Featured</option>
+          <option value="az">Name A–Z</option>
+          <option value="low">Price: Low–High</option>
+          <option value="high">Price: High–Low</option>
+        </select>
+      </div>
+
+      <p id="resultCount" style="color:var(--muted);margin-bottom:16px;"></p>
+      <div class="product-grid" id="productsGrid"></div>
+
+      <!-- Empty state -->
+      <div class="empty-state" id="noProducts" style="display:none;">
+        <div class="emoji">🔍</div>
+        <h2>No products found</h2>
+        <p>Try adjusting your search or filters.</p>
+        <button class="btn btn-primary" id="clearFilters">Clear Filters</button>
+      </div>
+    </div>
+  </main>
+
+  <footer id="siteFooter"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
