@@ -1,0 +1,589 @@
+{
+  "categories": [
+    {
+      "id": "cat-tshirts",
+      "name": "T-Shirts",
+      "description": "Official campus tees in classic and oversized fits.",
+      "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&q=80"
+    },
+    {
+      "id": "cat-hoodies",
+      "name": "Hoodies",
+      "description": "Cozy fleece pullovers and zip hoodies for winter semesters.",
+      "image_url": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&q=80"
+    },
+    {
+      "id": "cat-jackets",
+      "name": "Jackets",
+      "description": "Varsity jackets, windbreakers, and college bombers.",
+      "image_url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&q=80"
+    },
+    {
+      "id": "cat-caps",
+      "name": "Caps",
+      "description": "Embroidered snapbacks, dad hats, and campus beanies.",
+      "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&q=80"
+    },
+    {
+      "id": "cat-bags",
+      "name": "Bags",
+      "description": "Ergonomic backpacks, laptop sleeves, and canvas totes.",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80"
+    },
+    {
+      "id": "cat-accessories",
+      "name": "Accessories",
+      "description": "Lanyards, keychains, stainless water bottles & lapel pins.",
+      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "cat-stationery",
+      "name": "Stationery",
+      "description": "Embossed hardbound journals, ballpoint pens, and desk pads.",
+      "image_url": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=500&q=80"
+    },
+    {
+      "id": "cat-lifestyle",
+      "name": "Lifestyle",
+      "description": "Ceramic coffee mugs, insulated tumblers & campus blankets.",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=80"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Varsity Heritage Navy Hoodie",
+      "slug": "varsity-heritage-navy-hoodie",
+      "description": "Heavyweight 380 GSM brushed organic fleece hoodie with Chenille embroidered collegiate crest. Features a kangaroo pocket and double-lined hood for warmth.",
+      "category": "Hoodies",
+      "price": 899,
+      "original_price": 1199,
+      "image_url": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 38,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Navy Blue",
+        "Heather Grey",
+        "Forest Green"
+      ],
+      "is_featured": true,
+      "rating": 4.9,
+      "review_count": 58
+    },
+    {
+      "id": "prod-2",
+      "name": "Classic Campus Crewneck T-Shirt",
+      "slug": "classic-campus-crewneck-tshirt",
+      "description": "100% combed ringspun cotton t-shirt with screen-printed collegiate typography across the chest. Pre-shrunk and bio-washed for ultra-soft comfort.",
+      "category": "T-Shirts",
+      "price": 449,
+      "original_price": 599,
+      "image_url": "https://assets.myntassets.com/w_412,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2026/AUGUST/11/7GPoVvOm_410142260fbb4684aa0eff7cbb4f3f1d.jpg",
+      "in_stock": true,
+      "stock_quantity": 120,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Navy",
+        "White",
+        "Maroon",
+        "Black"
+      ],
+      "is_featured": true,
+      "rating": 4.8,
+      "review_count": 92,
+      "updated_at": "2026-09-18T06:47:21.776Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "All-Weather College Varsity Bomber",
+      "slug": "all-weather-college-varsity-bomber",
+      "description": "Premium wool-blend body with vegan leather contrast sleeves, striped rib-knit cuffs, and snap button closure. Features authentic college year embroidery.",
+      "category": "Jackets",
+      "price": 1499,
+      "original_price": 1999,
+      "image_url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 20,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Navy & White",
+        "Black & Gold"
+      ],
+      "is_featured": true,
+      "rating": 5,
+      "review_count": 34
+    },
+    {
+      "id": "prod-4",
+      "name": "Embroidered College Crest Snapback",
+      "slug": "embroidered-college-crest-snapback",
+      "description": "Structured 6-panel twill cap with high-density 3D embroidered college seal, adjustable snap closure, and breathable brass eyelets.",
+      "category": "Caps",
+      "price": 349,
+      "original_price": 499,
+      "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 65,
+      "sizes": [
+        "One Size Fits All"
+      ],
+      "colors": [
+        "Navy Blue",
+        "Charcoal Grey",
+        "Gold"
+      ],
+      "is_featured": false,
+      "rating": 4.7,
+      "review_count": 41
+    },
+    {
+      "id": "prod-5",
+      "name": "Campus Commuter Water-Resistant Backpack",
+      "slug": "campus-commuter-backpack",
+      "description": "28-liter ballistic polyester backpack featuring a padded 15.6\" laptop compartment, dual side bottle pockets, ergonomic airflow shoulder straps, and hidden passport pocket.",
+      "category": "Bags",
+      "price": 999,
+      "original_price": 1399,
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 35,
+      "sizes": [
+        "28 Liters"
+      ],
+      "colors": [
+        "Midnight Black",
+        "Navy",
+        "Olive Drab"
+      ],
+      "is_featured": true,
+      "rating": 4.9,
+      "review_count": 73
+    },
+    {
+      "id": "prod-6",
+      "name": "Heritage Ceramic Campus Coffee Mug",
+      "slug": "heritage-ceramic-campus-coffee-mug",
+      "description": "350ml microwave-safe ceramic coffee mug coated with matte reactive glaze and embossed college seal. Dishwasher safe with an ergonomic comfort grip handle.",
+      "category": "Lifestyle",
+      "price": 249,
+      "original_price": 349,
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 80,
+      "sizes": [
+        "350 ml"
+      ],
+      "colors": [
+        "Navy Blue",
+        "Stone White",
+        "Matte Black"
+      ],
+      "is_featured": false,
+      "rating": 4.8,
+      "review_count": 67
+    },
+    {
+      "id": "prod-7",
+      "name": "Hardbound Gold-Foil College Journal",
+      "slug": "hardbound-gold-foil-college-journal",
+      "description": "192 numbered pages of 100 GSM acid-free ruled paper. Hardbound vegan leather cover finished with gold foil stamped college emblem, bookmark ribbon, and expandable back pocket.",
+      "category": "Stationery",
+      "price": 299,
+      "original_price": 399,
+      "image_url": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 90,
+      "sizes": [
+        "A5 (148 x 210 mm)"
+      ],
+      "colors": [
+        "Deep Navy",
+        "Burgundy",
+        "Emerald Green"
+      ],
+      "is_featured": false,
+      "rating": 4.9,
+      "review_count": 28
+    },
+    {
+      "id": "prod-8",
+      "name": "Stainless Steel Insulated Campus Flask (750ml)",
+      "slug": "stainless-steel-insulated-campus-flask",
+      "description": "Double-walled vacuum insulated food-grade 18/8 stainless steel bottle. Keeps drinks icy cold for 24 hours or piping hot for 12 hours. Laser engraved college logo.",
+      "category": "Lifestyle",
+      "price": 599,
+      "original_price": 799,
+      "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 50,
+      "sizes": [
+        "750 ml"
+      ],
+      "colors": [
+        "Matte Navy",
+        "Brushed Steel",
+        "Stealth Black"
+      ],
+      "is_featured": false,
+      "rating": 4.8,
+      "review_count": 45
+    },
+    {
+      "id": "prod-9",
+      "name": "Alumni Signature Heavy Cotton Polo",
+      "slug": "alumni-signature-heavy-cotton-polo",
+      "description": "Classic piqué knit cotton polo with tipped collar, mother-of-pearl buttons, and precision embroidered college emblem over the chest.",
+      "category": "T-Shirts",
+      "price": 649,
+      "original_price": 849,
+      "image_url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 40,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Navy",
+        "White",
+        "Heather Grey"
+      ],
+      "is_featured": false,
+      "rating": 4.7,
+      "review_count": 19
+    },
+    {
+      "id": "prod-10",
+      "name": "Official College Lanyard & Enamel Pin Set",
+      "slug": "official-college-lanyard-enamel-pin-set",
+      "description": "Durable jacquard woven lanyard with quick-release buckle, swivel lobster clasp, ID pouch, and two collectible hard enamel college lapel pins.",
+      "category": "Accessories",
+      "price": 199,
+      "original_price": 299,
+      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=700&auto=format&fit=crop&q=80",
+      "in_stock": true,
+      "stock_quantity": 150,
+      "sizes": [
+        "Standard"
+      ],
+      "colors": [
+        "Navy & Gold"
+      ],
+      "is_featured": false,
+      "rating": 4.9,
+      "review_count": 84
+    },
+    {
+      "id": "prod-11",
+      "name": "Heavyweight Canvas Campus Tote Bag",
+      "slug": "heavyweight-canvas-campus-tote-bag",
+      "description": "14 oz unbleached natural cotton canvas tote with reinforced shoulder handles, zippered inner pocket for keys and wallet, and vintage college typography print.",
+      "category": "Bags",
+      "price": 279,
+      "original_price": 399,
+      "image_url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=700&q=80",
+      "in_stock": false,
+      "stock_quantity": 0,
+      "sizes": [
+        "15\" x 16\""
+      ],
+      "colors": [
+        "Natural Canvas",
+        "Navy Blue"
+      ],
+      "is_featured": false,
+      "rating": 4.6,
+      "review_count": 32
+    },
+    {
+      "id": "prod-12",
+      "name": "Semester Zip-Up Athletics Track Jacket",
+      "slug": "semester-zip-up-track-jacket",
+      "description": "Performance poly-tricot track jacket with contrast sleeve stripes, funnel neck collar, zippered hand pockets, and high-shine college athletic crest.",
+      "category": "Jackets",
+      "price": 1199,
+      "original_price": 1599,
+      "image_url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700&q=80",
+      "in_stock": true,
+      "stock_quantity": 25,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Navy & White",
+        "Black & Red"
+      ],
+      "is_featured": false,
+      "rating": 4.8,
+      "review_count": 27
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin-owner",
+      "email": "loyolaanuj@gmail.com",
+      "password_hash": "$2b$10$/ud1.HLWWJnM2tuxUMyQ0.iaGFqmVGAa25lovSmCAnl2XJkROotFO",
+      "full_name": "Store Administrator",
+      "phone": "+91 98765 00000",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-09-18T05:54:28.881Z",
+      "updated_at": "2026-09-18T05:54:28.882Z"
+    },
+    {
+      "id": "usr-admin-1",
+      "email": "admin@college.edu",
+      "password_hash": "$2b$10$/ud1.HLWWJnM2tuxUMyQ0.iaGFqmVGAa25lovSmCAnl2XJkROotFO",
+      "full_name": "Campus Administrator",
+      "phone": "+91 91234 56789",
+      "role": "admin",
+      "is_active": true,
+      "created_at": "2026-09-18T05:54:28.882Z",
+      "updated_at": "2026-09-18T05:54:28.882Z"
+    },
+    {
+      "id": "usr-1789710955700-hwu0y",
+      "email": "anuj@gmail.com",
+      "password_hash": "$2b$10$89wRVHnMJ77ofe55bT9PIe.H3SkKxUWxcKizb6orM/vDqxA9Veofq",
+      "full_name": "Anuj Arun",
+      "phone": "+91 70932 24401",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-09-18T05:55:55.700Z",
+      "updated_at": "2026-09-18T05:55:55.700Z"
+    },
+    {
+      "id": "usr-1789712991536-as37e",
+      "email": "varun@gmail.com",
+      "password_hash": "$2b$10$cZqoO0nfEb8FPrxapsg0UOs8XjZwpA1dyp2aWj9z0d/VpA78heRke",
+      "full_name": "varun",
+      "phone": "",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-09-18T06:29:51.536Z",
+      "updated_at": "2026-09-18T06:29:51.536Z"
+    },
+    {
+      "id": "usr-1789713170094-of8gk",
+      "email": "student_1789713169944@college.edu",
+      "password_hash": "$2b$10$vk4xJhoJUZwZA36SBA/jnO.vjAdecIp4TyEJmC5/UtebSX3fCgUFC",
+      "full_name": "Test Student",
+      "phone": "9876543210",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-09-18T06:32:50.094Z",
+      "updated_at": "2026-09-18T06:32:50.094Z"
+    },
+    {
+      "id": "usr-1789713202151-r6x5b",
+      "email": "student_1789713202026@college.edu",
+      "password_hash": "$2b$10$xbwQ8UYt/9FBQGrIF3UbtO.JpA.rwr1TQZ6m5JxX0nvTfPkgN/.62",
+      "full_name": "Test Student",
+      "phone": "9876543210",
+      "role": "user",
+      "is_active": false,
+      "created_at": "2026-09-18T06:33:22.151Z",
+      "updated_at": "2026-09-18T06:41:46.776Z"
+    },
+    {
+      "id": "usr-1789713217453-2khyi",
+      "email": "student_1789713217332@college.edu",
+      "password_hash": "$2b$10$EpKZaZKAPRORIF4x0YKk3.ETLGJmkeZ0HEiilB/lvm247agBKsjF2",
+      "full_name": "Test Student Updated",
+      "phone": "9123456780",
+      "role": "user",
+      "is_active": false,
+      "created_at": "2026-09-18T06:33:37.453Z",
+      "updated_at": "2026-09-18T06:41:48.539Z"
+    },
+    {
+      "id": "usr-1789713235796-uwy7z",
+      "email": "student_1789713235659@college.edu",
+      "password_hash": "$2b$10$uaTVArQEwsEsbrtjem4l5e4NFi/tKSX4ac7SFakHXixG/6YetJUaC",
+      "full_name": "Test Student Updated",
+      "phone": "9123456780",
+      "role": "user",
+      "is_active": false,
+      "created_at": "2026-09-18T06:33:55.796Z",
+      "updated_at": "2026-09-18T06:41:43.408Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-4234",
+      "user_id": "usr-1789713235796-uwy7z",
+      "customer_name": "Test Student",
+      "customer_email": "student_1789713235659@college.edu",
+      "customer_phone": "9876543210",
+      "shipping_address": "Room 402, Block B, Campus Hostel",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pin_code": "600034",
+      "payment_method": "UPI",
+      "payment_status": "Completed (UPI Verified: UPI123456789012)",
+      "payment_ref": "UPI123456789012",
+      "order_status": "Processing",
+      "total_amount": 899,
+      "shipping_fee": 0,
+      "items": [
+        {
+          "id": "item-ORD-4234-1",
+          "order_id": "ORD-4234",
+          "product_id": "prod-1",
+          "product_name": "Varsity Heritage Navy Hoodie",
+          "product_image": "",
+          "price": 899,
+          "quantity": 1,
+          "selected_size": "L",
+          "selected_color": "Navy",
+          "subtotal": 899
+        }
+      ],
+      "created_at": "2026-09-18T06:33:56.346Z",
+      "updated_at": "2026-09-18T06:33:56.356Z"
+    },
+    {
+      "id": "ORD-4972",
+      "user_id": "usr-1789713217453-2khyi",
+      "customer_name": "Test Student",
+      "customer_email": "student_1789713217332@college.edu",
+      "customer_phone": "9876543210",
+      "shipping_address": "Room 402, Block B, Campus Hostel",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pin_code": "600034",
+      "payment_method": "UPI",
+      "payment_status": "Completed (UPI Verified: UPI123456789012)",
+      "payment_ref": "UPI123456789012",
+      "order_status": "Processing",
+      "total_amount": 899,
+      "shipping_fee": 0,
+      "items": [
+        {
+          "id": "item-ORD-4972-1",
+          "order_id": "ORD-4972",
+          "product_id": "prod-1",
+          "product_name": "Varsity Heritage Navy Hoodie",
+          "product_image": "",
+          "price": 899,
+          "quantity": 1,
+          "selected_size": "L",
+          "selected_color": "Navy",
+          "subtotal": 899
+        }
+      ],
+      "created_at": "2026-09-18T06:33:38.016Z",
+      "updated_at": "2026-09-18T06:33:38.024Z"
+    },
+    {
+      "id": "ORD-3721",
+      "user_id": "usr-1789713202151-r6x5b",
+      "customer_name": "Test Student",
+      "customer_email": "student_1789713202026@college.edu",
+      "customer_phone": "9876543210",
+      "shipping_address": "Room 402, Block B, Campus Hostel",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pin_code": "600034",
+      "payment_method": "UPI",
+      "payment_status": "Completed (UPI Verified: UPI123456789012)",
+      "payment_ref": "UPI123456789012",
+      "order_status": "Processing",
+      "total_amount": 899,
+      "shipping_fee": 0,
+      "items": [
+        {
+          "id": "item-ORD-3721-1",
+          "order_id": "ORD-3721",
+          "product_id": "prod-1",
+          "product_name": "Varsity Heritage Navy Hoodie",
+          "product_image": "",
+          "price": 899,
+          "quantity": 1,
+          "selected_size": "L",
+          "selected_color": "Navy",
+          "subtotal": 899
+        }
+      ],
+      "created_at": "2026-09-18T06:33:22.565Z",
+      "updated_at": "2026-09-18T06:33:22.575Z"
+    },
+    {
+      "id": "ORD-5488",
+      "user_id": null,
+      "customer_name": "varun",
+      "customer_email": "loyolaanuj@gmail.com",
+      "customer_phone": "07093224401",
+      "shipping_address": "Bali Reddy Bhavan",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pin_code": "500018",
+      "payment_method": "UPI",
+      "payment_status": "Completed (UPI Paid)",
+      "payment_ref": null,
+      "order_status": "Pending",
+      "total_amount": 899,
+      "shipping_fee": 0,
+      "items": [
+        {
+          "id": "item-ORD-5488-1",
+          "order_id": "ORD-5488",
+          "product_id": "prod-1",
+          "product_name": "Varsity Heritage Navy Hoodie",
+          "product_image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=700&q=80",
+          "price": 899,
+          "quantity": 1,
+          "selected_size": "S",
+          "selected_color": "Navy Blue",
+          "subtotal": 899
+        }
+      ],
+      "created_at": "2026-09-18T06:30:32.240Z",
+      "updated_at": "2026-09-18T06:30:32.240Z"
+    }
+  ],
+  "cart_items": [],
+  "password_resets": [
+    {
+      "id": "pr-1789713218470",
+      "email": "student_1789713217332@college.edu",
+      "token": "rst-n2jb3cww3wdmu6l1hgm",
+      "expires_at": "2026-09-18T07:33:38.470Z",
+      "used": false,
+      "created_at": "2026-09-18T06:33:38.470Z"
+    },
+    {
+      "id": "pr-1789713236784",
+      "email": "student_1789713235659@college.edu",
+      "token": "rst-yp34sps6e0hmu6l1vlc",
+      "expires_at": "2026-09-18T07:33:56.784Z",
+      "used": true,
+      "created_at": "2026-09-18T06:33:56.784Z"
+    }
+  ]
+}

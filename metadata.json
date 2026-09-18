@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS",
+  "description": "NEXUS — Official campus merchandise store with full-stack backend, database, authentication, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

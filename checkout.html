@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkout — CollegeMerch</title>
-  <meta name="description" content="Complete your demo checkout.">
+  <title>Checkout — NEXUS Official Campus Store</title>
+  <meta name="description" content="Complete your campus order securely.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -12,7 +12,7 @@
 <body>
   <header id="siteHeader"></header>
   <main>
-    <div class="page-header"><div class="container"><h1>Checkout</h1><p>Demo checkout — no real payment is processed</p></div></div>
+    <div class="page-header"><div class="container"><h1>Secure Checkout</h1><p>Official Campus Store — Fast, secure order placement</p></div></div>
     <div class="container" style="padding-bottom:50px;" id="checkoutMain">
       <form class="checkout-layout" id="checkoutForm" novalidate>
         <div>
@@ -59,13 +59,39 @@
           <section class="checkout-section">
             <h3>Payment Method</h3>
             <label class="pay-option selected" onclick="selectPayment(this)">
-              <input type="radio" name="payment" value="UPI" checked> UPI
+              <div style="display:flex; align-items:flex-start; gap:12px; width:100%;">
+                <input type="radio" name="payment" value="UPI" checked style="margin-top:4px;">
+                <div style="flex:1;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                    <strong style="color:var(--primary); font-size:1rem;">⚡ UPI Instant QR Pay (Recommended)</strong>
+                    <span style="font-size:0.75rem; background:#dcfce7; color:#15803d; font-weight:700; padding:2px 8px; border-radius:9999px;">0% Surcharge</span>
+                  </div>
+                  <p style="font-size:0.85rem; color:var(--muted); margin:4px 0 0;">
+                    Scan &amp; pay via any UPI app (GPay, PhonePe, Paytm, navi, BHIM) right on the confirmation screen.
+                  </p>
+                  <div style="margin-top:8px; font-size:0.8rem; background:var(--surface-alt); padding:6px 10px; border-radius:6px; border:1px dashed var(--border); display:inline-block;">
+                    UPI ID: <strong>7093224401@nyes</strong> (Anuj Arun Kumar)
+                  </div>
+                </div>
+              </div>
             </label>
             <label class="pay-option" onclick="selectPayment(this)">
-              <input type="radio" name="payment" value="Card"> Card
+              <div style="display:flex; align-items:center; gap:12px;">
+                <input type="radio" name="payment" value="Card">
+                <div>
+                  <strong>Credit / Debit Card / Net Banking</strong>
+                  <div style="font-size:0.82rem; color:var(--muted);">All major bank cards &amp; student portal banking</div>
+                </div>
+              </div>
             </label>
             <label class="pay-option" onclick="selectPayment(this)">
-              <input type="radio" name="payment" value="Cash on Collection"> Cash on Collection
+              <div style="display:flex; align-items:center; gap:12px;">
+                <input type="radio" name="payment" value="Cash on Collection">
+                <div>
+                  <strong>Cash on Campus Collection / Delivery</strong>
+                  <div style="font-size:0.82rem; color:var(--muted);">Pay at the Campus Store merchandise desk upon pickup</div>
+                </div>
+              </div>
             </label>
           </section>
         </div>
